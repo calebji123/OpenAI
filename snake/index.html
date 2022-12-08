@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    canvas {
+      border: 1px solid black;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h1>Snake Game</h1>
+  <canvas id="canvas" width="400" height="400"></canvas>
+  <script>
+    // Get the canvas and its context
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    // The size of each cell in the grid (in pixels)
+    const cellSize = 20;
+
+    // The initial position and direction of the snake
+    let x = 0;
+    let y = 0;
+    let dx = 1;
+    let dy = 0;
+
+    //speed
+    let fps = 10;
+
+    // The initial position of the food
+    let foodX = 10;
+    let foodY = 10;
+
+    // The array of cells that make up the snake
+    let snake = [{x: 0, y: 0}];
+
+    // Whether the game is over or not
+    let gameOver = false;
+
+    // The main game loop
+    function loop() {
+      // Move the snake in its current direction
+      x += dx;
+      y += dy;
+
+      // If the snake has hit a wall or itself, end the game
+      if (x < 0 || y < 0 || x >= canvas.width / cellSize || y >= canvas.height / cellSize || snake.find(cell => cell.x == x && cell.y == y)) {
+         gameOver = true;
+        return;
+      }
+
+      // Add the new position of the snake's head to the array of cells
+      snake.unshift({x: x, y: y});
+
+      // If the snake has eaten the food, place the food at a new random location and don't remove the tail
+      if (x == foodX && y == foodY) {
+        foodX = Math.floor(Math.random() * canvas.width / cellSize);
+        foodY = Math.floor(Math.random() * canvas.height / cellSize);
+      } else {
+        // Otherwise, remove the tail of the snake
+        snake.pop();
+      }
+
+      // Clear the canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Draw the snake and the food
+      for (const cell of snake) {
+        ctx.fillStyle = 'green';
+        ctx.fillRect(cell.x * cellSize, cell.y * cellSize, cellSize, cellSize);
+      }
+      ctx.fillStyle = 'red';
+      ctx.fillRect(foodX * cellSize, foodY * cellSize, cellSize, cellSize);
+
+      // If the game is not over, request the next animation frame
+      if (!gameOver) {
+         setTimeout(() => {
+            requestAnimationFrame(loop);
+         }, 1000/fps)
+        
+      }
+    }
+
+    // Start the game
+    loop();
+
+    // Listen for keyboard events to move the snake
+    window.addEventListener('keydown', (event) => {const callback = {
+      "ArrowLeft"  : () => {changeDir(-1, 0)},
+      "ArrowRight" : () => {changeDir(1, 0)},
+      "ArrowUp"    : () => {changeDir(0, -1)},
+      "ArrowDown"  : () => {changeDir(0, 1)},
+   }[event.key]
+   callback?.()});
+
+   function changeDir(newdx, newdy) {
+      dx = newdx;
+      dy = newdy;
+      console.log(dx,dy)
+   }
+
+   </script>
+</body>
+</html>
