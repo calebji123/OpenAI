@@ -17,3 +17,25 @@ There is so much missing, such as the fruit spawning on the snake and the lack o
 ## Prompt 2: html homepage for an openAI project showcase
 
 I was just thinking, if I wanted to show a lot of examples, I would have to create a hubpage to display them all and that would take precious time away from using the AI tool. Then I had the epiphany to create the homepage from the AI. Genius, and it works phenomenally. I only changed the descriptions and added some links and voila! it took barely any time at all!
+
+
+## Prompt3: 2048 Game in html
+
+My brain has just died. I felt a little ambitious and decided to try and code the popular web 2048 game with the AI. I was a little disheartened with the code that resulted because it didn't even complete the html before stopping. Definitely the AI has room to improve in the amount of content it can give, at least in the free version.
+
+However, I did not stop there. I tried to produce the javascript backend with a new prompt: "2048 game javascript backend", and to my surprise, it worked! It only took another while before I had pieced together the entire program by searching their function names and all their helper functions. All I needed to add were a few global update calls and to fix the keydown event listener because it used deprecated javascript tools. Here are all the prompts I gave:
+
+2048 game backend in javascript shiftgrid function
+transposegrid function for 2048 game javascript
+2048 game add javascript grid to html table
+2048 shiftRowOrColumn function javascript
+2048 shiftArray function javascript
+
+I refreshed the thread halfway through, which created some redundant functions and some completely new code. I realised that if continuing on one thread, the AI will produce very coherent code, and the functions will all interlink with the same variable names and all that. A new thread would mix things up a little. In the end, I integrated code from both threads, but if I had stuck to one thread, it would have been an even faster process.
+
+I look amazed at the little amount of time required to create such a relatively complex web game. Oh how wondrously AI works.
+
+
+
+
+
