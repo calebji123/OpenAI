@@ -14,3 +14,6 @@ After fixing the code, I honestly was astonished. There were obvious problems wi
 
 There is so much missing, such as the fruit spawning on the snake and the lack of a start screen, end screen or smooth motion, but there is so much that is not missing as well! Every fundamental process was already defined. Every variable, every function. It properly drew the canvas as well! I have no right being this excited. On to the next prompt.
 
+## Prompt 2: html homepage for an openAI project showcase
+
+I was just thinking, if I wanted to show a lot of examples, I would have to create a hubpage to display them all and that would take precious time away from using the AI tool. Then I had the epiphany to create the homepage from the AI. Genius, and it works phenomenally. I only changed the descriptions and added some links and voila! it took barely any time at all!
