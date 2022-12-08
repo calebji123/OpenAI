@@ -9,3 +9,8 @@ Anyways, enjoy my delve into the power of OpenAI code generation.
 ## Prompt 1: create a snake game in html and javascript
 
 The code it spit out is under raw.html, I refactored it to work in index.html. There might be a line limit or a memory limit seeing as it cuts off rather abruptly. 
+
+After fixing the code, I honestly was astonished. There were obvious problems with the code, first off it didn't finish the code, so I had to add in all the key press event handlers. As well, the game ran in 60 fps, which meant the snake zoomed with barely any ability to control it, so I had to fix that as well. However those were the only two changes I made. I left everything the way it was, and miraculously it works! I can play snake with AI generated code!
+
+There is so much missing, such as the fruit spawning on the snake and the lack of a start screen, end screen or smooth motion, but there is so much that is not missing as well! Every fundamental process was already defined. Every variable, every function. It properly drew the canvas as well! I have no right being this excited. On to the next prompt.
+
