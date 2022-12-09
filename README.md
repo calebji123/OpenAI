@@ -36,6 +36,35 @@ I refreshed the thread halfway through, which created some redundant functions a
 I look amazed at the little amount of time required to create such a relatively complex web game. Oh how wondrously AI works.
 
 
+##Prompt 4: Flappy Bird
+No, that was not the prompt. I used many prompts here. I had officially gotten to the point of overwhelming complexity. The code that the AI generated was all boiler plate code, with many missing functions. They would not tell me what to do, and I would have to query another prompt to get more answers. It lost coherency in the abundance of possibilities. Perhaps I could have been more specific with my prompts, but I had now lost energy. In the end, the code turned buggy and very minimal. I scraped together a game from what they gave me by tweaking many things. After all the time staring at the code they gave, trying to figure out what to ask next, I finially could say that this is what an AI is capable of. Here are all the prompts I used:
 
+Code flappy bird front end in html
+flappy bird add pipes code javascript
+flappy bird javascript check collision function
+flappy bird javascript draw functions
+flappy bird javascript restart button click event listener
+flappy bird javascript return pipes after they pass 
+flappy bird javascript space bar to move bird function
+flappy bird add more complex pipes javascript
+flappy bird collision with complex pipes javascript
+add scoring flappybird javascript
+
+Beauty.
+
+
+#Conclusion
+Thus ends my couple-hour-long session looking into AI generated code. The games I tried to code were all popular ones, definitely with many tutorials on the web that outline a step by step guide. I would assume that this would make the task increadibly easy for the AI. It really fascinated me that the AI could think of many different ways to approach coding a game through its different threads, of which I only started to test out in the flappy bird game. It solidified in me that the code I copied was not just another tutorial blog's code, but that the AI actually created the code itself, based on its knowledge of the game and the language. Sadly, this AI is directly purely towards chatting, and in the end tried to explain things to me, and suggested I look at tutorials and the like. I didn't know how to explain that I just wanted thecode and not the talking part. 
+
+It was interesting to note that the 2048 game was surprisingly simple to query, because of the named functions that it had. I could search for that function name and it would tell me how to code it and any subsidiary functions it needed. The flappy bird game had not such thing. With each prompt, it would have to redefine certain elements and almost start from scratch again. There were no specific complex functions that I could narrow down on. It was, in essence, more of a mess.
+
+That comes to the all pressing question: will AI take over all the coding jobs? 
+Well no. There's no way. Even I had to toil through giving it prompts and understanding what it spat back so I could combine the code and refactor it. Even though the code was impressive, it still was just simple javascript and html. There was nothing there that a new learner could not figure out. 
+
+This, however, leads to the better question of: what will the use of AI be in future coding? What I can see is that AI could be very good at predicting what certain functions should look like, especially if given a description of what it should do. Imagine a world where a coder would not need to code, but could simply describe their function, and the AI would write the function based on all the other code in the project. That could save so much time! Even through simple stuff like a 2048 game or flappy bird. The AI is an expert at developing templates and simple code that could otherwise feel monotonous to a coder. They are not feature rich, but perhaps they could be a starting point for ideas and innovations. 
+
+The only tool I used was a free chat AI that could also code on the side. I believe that a dedicated coding AI would revolutionize the way code is developed. Maybe it is happening already. And in the way I excitedly squirmed when this AI created a chunky version of snake, you could safely assume that I will accept this change with open arms. 
+
+Caleb Ji 08/12/22
 
 
