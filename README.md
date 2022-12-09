@@ -36,7 +36,7 @@ I refreshed the thread halfway through, which created some redundant functions a
 I look amazed at the little amount of time required to create such a relatively complex web game. Oh how wondrously AI works.
 
 
-##Prompt 4: Flappy Bird
+## Prompt 4: Flappy Bird
 No, that was not the prompt. I used many prompts here. I had officially gotten to the point of overwhelming complexity. The code that the AI generated was all boiler plate code, with many missing functions. They would not tell me what to do, and I would have to query another prompt to get more answers. It lost coherency in the abundance of possibilities. Perhaps I could have been more specific with my prompts, but I had now lost energy. In the end, the code turned buggy and very minimal. I scraped together a game from what they gave me by tweaking many things. After all the time staring at the code they gave, trying to figure out what to ask next, I finially could say that this is what an AI is capable of. Here are all the prompts I used:
 
 Code flappy bird front end in html
