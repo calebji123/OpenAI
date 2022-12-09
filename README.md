@@ -53,7 +53,7 @@ add scoring flappybird javascript
 Beauty.
 
 
-#Conclusion
+# Conclusion
 Thus ends my couple-hour-long session looking into AI generated code. The games I tried to code were all popular ones, definitely with many tutorials on the web that outline a step by step guide. I would assume that this would make the task increadibly easy for the AI. It really fascinated me that the AI could think of many different ways to approach coding a game through its different threads, of which I only started to test out in the flappy bird game. It solidified in me that the code I copied was not just another tutorial blog's code, but that the AI actually created the code itself, based on its knowledge of the game and the language. Sadly, this AI is directly purely towards chatting, and in the end tried to explain things to me, and suggested I look at tutorials and the like. I didn't know how to explain that I just wanted thecode and not the talking part. 
 
 It was interesting to note that the 2048 game was surprisingly simple to query, because of the named functions that it had. I could search for that function name and it would tell me how to code it and any subsidiary functions it needed. The flappy bird game had not such thing. With each prompt, it would have to redefine certain elements and almost start from scratch again. There were no specific complex functions that I could narrow down on. It was, in essence, more of a mess.
