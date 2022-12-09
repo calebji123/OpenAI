@@ -65,6 +65,8 @@ This, however, leads to the better question of: what will the use of AI be in fu
 
 The only tool I used was a free chat AI that could also code on the side. I believe that a dedicated coding AI would revolutionize the way code is developed. Maybe it is happening already. And in the way I excitedly squirmed when this AI created a chunky version of snake, you could safely assume that I will accept this change with open arms. 
 
+Oh did I mention, this all took me approximately 3 hours. Coding three rough games, writing and creating a readme, and documenting most of the code. I'd say that's pretty good.
+
 Caleb Ji 08/12/22
 
 
